@@ -1,0 +1,80 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    background-color: rgb(107, 107, 227);
+    font-family: sans-serif;
+}
+.container{
+    background-color: white;
+    min-height: 100px;
+    width:520px;
+    margin: 100px auto;
+    border-radius: 5px;
+    height: auto;
+}
+.inside-box{
+    width:100%;
+    margin:0;
+    display: block;
+    float:none;
+    overflow: hidden;
+
+}
+.inside-box h1{
+    font-size:20px;
+    color: navy;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 2px #bababa;
+}
+.block{
+    width:130px;
+    padding:5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    /* float: left; */
+}
+.title{
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color:  rgb(46, 46, 224);
+    word-spacing: 2.8px;
+}
+input[type=text]{
+    margin: auto;
+    width: 140px;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid   rgb(46, 46, 224);
+    border-radius: 2px;
+    color:  rgb(46, 46, 224);
+    font-size: 15px;
+    padding: 12px;
+}
+input[type=button]{
+    width: 150px;
+    padding: 14px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(46, 46, 224);
+    outline: none;
+    margin-top: 40px;
+    margin-left: 35%;
+    color: white;
+    font-size: 18px;
+}
+#age{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    margin: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: navy;
+}
